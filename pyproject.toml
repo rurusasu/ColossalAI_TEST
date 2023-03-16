@@ -26,25 +26,21 @@ classifiers = [
 
 [tool.poetry.dependencies]
 python = "^3.10,<3.11"
-jupyterlab = "^3.5.2"
-numpy = "^1.24.1"
-pillow = "^9.4.0"
 torch = "^1.13.1"
-matplotlib = "^3.6.3"
+colossalai-nightly = "^2023.3.11"
 torchvision = "^0.14.1"
-pandas = "^1.5.2"
-colossalai-nightly = "^2023.3.4"
 tensorboard = "^2.12.0"
 
 [tool.poetry.group.dev.dependencies]
 pytest-cov = "^4.0.0"
-black = "^22.12.0"
-isort = "^5.11.4"
+black = "^23.1.0"
+isort = "^5.12.0"
 flake8 = "^6.0.0"
-mypy = "^0.991"
+mypy = "^1.1.1"
 mdformat-gfm = "^0.3.5"
-mdformat-frontmatter = "^0.4.1"
+mdformat-frontmatter = "^2.0.1"
 mdformat-footnote = "^0.1.1"
+
 
 [tool.black]
 line-length = 88
